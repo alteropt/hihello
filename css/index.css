@@ -172,7 +172,7 @@ main.popup {
   left: 50%;
   transform: translateX(-50%);
   height: 80%;
-  padding-top: 7%;
+  padding-top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
