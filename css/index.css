@@ -178,7 +178,6 @@ main.popup {
   align-items: center;
   bottom: -100%;
   transition: bottom 0.3s linear;
-  overflow: scroll;
 }
 .popup__content.active {
   bottom: 0;
