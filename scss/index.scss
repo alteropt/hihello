@@ -168,6 +168,12 @@ main.popup {
     }
 }
 
+@media(max-height: 600px) {
+    .popup__content {
+        padding-top: 17%;
+    }
+}
+
 .popup__img {
     position: absolute;
     height: 97px;
