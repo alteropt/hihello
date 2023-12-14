@@ -35,7 +35,7 @@ main.popup {
 }
 
 .wrapper {
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 440px;
   width: 100%;
   min-height: 700px;
@@ -43,7 +43,7 @@ main.popup {
   position: relative;
   border-radius: 22px;
   padding-top: 388px;
-  margin-bottom: 25px;
+  margin-bottom: 100px;
 }
 
 .man {
@@ -145,6 +145,13 @@ main.popup {
   color: #fff;
 }
 
+.get-contact {
+  position: fixed;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .popup {
   position: fixed;
   width: 100%;
@@ -172,7 +179,7 @@ main.popup {
   left: 50%;
   transform: translateX(-50%);
   height: 80%;
-  padding-top: 10%;
+  padding-top: 7%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -184,7 +191,7 @@ main.popup {
   display: flex;
 }
 
-@media (max-height: 600px) {
+@media (min-height: 600px) {
   .popup__content {
     padding-top: 17%;
   }
