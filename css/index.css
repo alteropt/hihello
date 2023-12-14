@@ -150,6 +150,7 @@ main.popup {
   bottom: 5px;
   left: 50%;
   transform: translateX(-50%);
+  width: 80%;
 }
 
 .popup {
